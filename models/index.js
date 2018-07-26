@@ -3,8 +3,8 @@ import Sequelize from 'sequelize';
 const sequelize = new Sequelize('nano_wallet', 'postgres', 'postgres');
 
 const models = {
-    user: sequelize.import('./users'),
-    wallet: sequelize.import('.wallet'),
+    User: sequelize.import('./users'),
+    Wallet: sequelize.import('.wallet'),
 };
 
 
