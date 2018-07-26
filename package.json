@@ -1,0 +1,32 @@
+{
+  "name": "nano_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "admin.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "hbs": "^4.0.1",
+    "nodemon": "^1.14.12",
+    "pg-promise": "^7.4.1",
+    "prompt-promise": "^1.0.3",
+    "request": "^2.83.0",
+    "sequelize": "^4.37.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "currency",
+    "raiblocks",
+    "nano",
+    "website"
+  ],
+  "author": "ahmer malik",
+  "license": "ISC"
+}
