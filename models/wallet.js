@@ -1,9 +1,6 @@
 export default (sequelize, DataTypes) => {
-    const Wallet = sequelize.define("wallet", {
-        wallet_address: {
-            type: DataTypes.STRING,
-            unique: false,
-        },
+    const Wallet = sequelize.define('wallet', {
+        wallet_address: DataTypes.STRING,
     });
 
     Wallet.associate = (models) => {
