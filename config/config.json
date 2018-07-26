@@ -2,7 +2,7 @@
   "development": {
     "username": "postgres",
     "password": null,
-    "database": "podcast",
+    "database": "nano_wallet",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var body_parser = require('body-parser');
 var pgp = require('pg-promise')({});
-var db = pgp({database: 'todo_database'});
+var db = pgp({database: 'nano_wallet'});
 
 
 
