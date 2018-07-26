@@ -2,14 +2,15 @@ import Sequelize from 'sequelize';
 
 const sequelize = new Sequelize('nano_wallet', 'postgres', 'postgres');
 
-const models ={
-  user: sequelize.import('./users'),
+const models = {
+    user: sequelize.import('./users'),
+    wallet: sequelize.import('.wallet'),
 };
 
 
-Object.keys(db).forEach((modelName) => {
-    if ('associate' in db[modelName]) {
-        db[modelName].associate(db);
+Object.keys(models).forEach((modelName) => {
+    if ('associate' in models[modelName]) {
+        model[modelName].associate(models);
     }
 });
 
