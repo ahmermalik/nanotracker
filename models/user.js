@@ -11,7 +11,7 @@ export default (sequelize, DataTypes) => {
     });
 
     User.associate = (models) => {
-       User.belongsToMany(models.Wallet, {
+        User.belongsToMany(models.Wallet, {
             through:'wallet',
             foreignKey: 'userId',
         });

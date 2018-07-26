@@ -1,9 +1,10 @@
+import models from './models';
 var express = require('express');
 var app = express();
 var body_parser = require('body-parser');
 var pgp = require('pg-promise')({});
 var db = pgp({database: 'nano_wallet'});
-import models from './models';
+
 
 
 /** sets the template engine to handle bars**/
@@ -109,12 +110,14 @@ app.post('/todos/done/:id', function (request, response, next) {
 
 });
 
+models.sequelize.sync().then(() =>{
+    app.listen(8000, function () {
+        console.log('Listening on port 8000');
+    });
+
+}
 
 
-
-app.listen(8000, function () {
-    console.log('Listening on port 8000');
-});
 
 
 
