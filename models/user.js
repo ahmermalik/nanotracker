@@ -1,21 +1,16 @@
-export default (sequelize, DataTypes) => {
-    const User = sequelize.define('user', {
-        username:{
-            type: DataTypes.STRING,
-            unique: true,
-        },
-        wallet_address:{
-            type: DataTypes.STRING,
-            unique: false,
-        },
+'use strict';
+module.exports = (sequelize, DataTypes) => {
+    var user = sequelize.define('user', {
+        f_name: DataTypes.STRING,
+        l_name: DataTypes.STRING,
+        email: DataTypes.STRING,
+        google_id: DataTypes.STRING,
+    }, {
+        classMethods: {
+            associate: function(models) {
+                // associations can be defined here
+            }
+        }
     });
-
-    User.associate = (models) => {
-        User.belongsToMany(models.Wallet, {
-            through:'wallet',
-            foreignKey: 'userId',
-        });
-    };
-
-    return User;
+    return user;
 };

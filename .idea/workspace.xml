@@ -3,133 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7068d756-89dd-47f3-af57-2f6e8e3c1978" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/.idea/codeStyleSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/.idea/moment-timezone.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone-with-data-2012-2022.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone-with-data-2012-2022.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone-with-data-2012-2022.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone-with-data-2012-2022.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone-with-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone-with-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone-with-data.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone-with-data.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/builds/moment-timezone.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/data/unpacked/latest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/moment-timezone-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/moment-timezone-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/moment-timezone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/moment-timezone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/az.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/be.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/be.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/pa-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/pa-in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/locales.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/locales.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/create/from-string.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/create/from-string.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/units/day-of-week.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/units/day-of-week.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/az.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/be.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/be.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/pa-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/pa-in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pg/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pg/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/data-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/data-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/data-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/data-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/__root__/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/__root__/terraformer.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/coverage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/sort-arrow-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.coverage/sorter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terraformer/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terraformer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terraformer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/arcgis-parser/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/css/terraformer-02847305.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/fonts/esri-logo-3a94862e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/fonts/esri-logo-71163913.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/fonts/esri-logo-80bed756.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/fonts/esri-logo-fc93d7bf.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/fonts/esri-logo.dev-aed9f839.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/images/terraformer-arcparser-a0228324.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/images/terraformer-core-93b83c36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/images/terraformer-geostore-9e09ce2c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/images/terraformer-parser-a57c9c2d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/images/terraformer-wktparser-b18bc9d9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/javascripts/all-da39a3ee.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/javascripts/classie-b6db1f70.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/javascripts/drawer-3a1490eb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/assets/javascripts/modernizr.custom-cadc78a2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/core/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/geostore/alternate-indexes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/geostore/core-concepts/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/geostore/data-stores/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/geostore/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/geostore/spatial-indexes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/getting-started/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/glossary/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/install/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/cover/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/doctoc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/footer/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/index_partials/arcgis_parser/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/index_partials/geostore/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/index_partials/terraformer_core/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/index_partials/wkt_parser/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/nav/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/partials/subnav/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/docs-build/wkt-parser/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terraformer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/release.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/spec/geojsonHelpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/spec/spatialReferenceSpec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/spec/terraformerSpec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/terraformer-1.0.8.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/terraformer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terraformer/terraformer.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terraformer/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isCreditCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isCreditCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isEmail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isFQDN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isFQDN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isFloat.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isFloat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isISSN.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isISSN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isMobilePhone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isMobilePhone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isNumeric.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isNumeric.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/isPostalCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/isPostalCode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/normalizeEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/normalizeEmail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/lib/rtrim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/lib/rtrim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/validator/validator.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/validator.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -143,36 +17,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wallet.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/wallet.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/Coursework/Javascript/exercises/sequelize_exer/models/artist.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -202,12 +71,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/layout.hbs" />
         <option value="$PROJECT_DIR$/views/home.hbs" />
-        <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/models/wallet.js" />
         <option value="$PROJECT_DIR$/models/index.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/config/config.json" />
+        <option value="$USER_HOME$/PycharmProjects/Coursework/Javascript/exercises/sequelize_exer/models/artist.js" />
+        <option value="$PROJECT_DIR$/models/user.js" />
       </list>
     </option>
   </component>
@@ -239,10 +109,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="878" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="311" />
+    <option name="y" value="235" />
+    <option name="width" value="1129" />
+    <option name="height" value="665" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -336,18 +207,18 @@
       <updated>1532627010397</updated>
       <workItem from="1532627011686" duration="3038000" />
       <workItem from="1532630545196" duration="7024000" />
-      <workItem from="1532663755970" duration="2614000" />
+      <workItem from="1532663755970" duration="3482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12676000" />
+    <option name="totallyTimeSpent" value="13544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="1" />
+    <frame x="311" y="235" width="1129" height="665" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1663143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2129964" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -355,7 +226,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.47887325" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15316902" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -526,16 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/wallet.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -545,15 +406,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="225">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="495">
           <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/wallet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Coursework/Javascript/exercises/sequelize_exer/models/artist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
