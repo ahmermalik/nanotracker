@@ -1,13 +1,12 @@
-export default (sequelize, DataTypes) => {
-    const Wallet = sequelize.define('wallet', {
-        wallet_address: DataTypes.STRING,
+'use strict';
+module.exports = (sequelize, DataTypes) => {
+    var wallet = sequelize.define('wallet', {
+        address: DataTypes.STRING,
     });
 
-    Wallet.associate = (models) => {
-        Wallet.belongsToMany(models.User, {
-            foreignKey: 'user',
-        });
+    wallet.associate = function(models) {
+        wallet.belongsTo(models.user);
     };
 
-    return Wallet;
+    return wallet;
 };
