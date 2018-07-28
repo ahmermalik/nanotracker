@@ -3,7 +3,6 @@ var app = express();
 var body_parser = require('body-parser');
 var pgp = require('pg-promise')({});
 var db = pgp({database: 'nano_wallet'});
-import models from './models';
 
 
 /** sets the template engine to handle bars**/
@@ -87,7 +86,7 @@ app.post('/todos/delete/:id', function (request, response, next) {
 
 app.post('/todos/done/:id', function (request, response, next) {
     //declare id aka slug from the database and put it at the end of the url on the todo page.
-    var id = request.params.id;
+    var id = request.params.id;5
     // where the user selects the todo from the list, select the same todo where the id is the same in the database
     let query = "SELECT * FROM task WHERE id = $1";
     db.one(query, id)

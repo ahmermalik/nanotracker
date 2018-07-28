@@ -8,26 +8,29 @@ var env       = process.env.NODE_ENV || 'development';
 var config    = require(__dirname + '/../config/config.json')[env];
 var db        = {};
 
-import Sequelize from 'sequelize';
+if (config.use_env_variable) {
+  var sequelize = new Sequelize(process.env[config.use_env_variable], config);
+} else {
+  var sequelize = new Sequelize(config.database, config.username, config.password, config);
+}
 
-const sequelize = new Sequelize('nano_wallet', 'postgres', 'postgres',{
-  dialect: 'postgres',
+fs
+  .readdirSync(__dirname)
+  .filter(file => {
+    return (file.indexOf('.') !== 0) && (file !== basename) && (file.slice(-3) === '.js');
+  })
+  .forEach(file => {
+    var model = sequelize['import'](path.join(__dirname, file));
+    db[model.name] = model;
+  });
+
+Object.keys(db).forEach(modelName => {
+  if (db[modelName].associate) {
+    db[modelName].associate(db);
+  }
 });
 
-const models = {
-    User: sequelize.import('./user'),
-    Wallet: sequelize.import('.wallet'),
-};
+db.sequelize = sequelize;
+db.Sequelize = Sequelize;
 
-
-Object.keys(models).forEach((modelName) => {
-    if ('associate' in models[modelName]) {
-        model[modelName].associate(models);
-    }
-});
-
-models.sequelize = sequelize;
-models.Sequelize = Sequelize;
-
-
-export default models;
+module.exports = db;
