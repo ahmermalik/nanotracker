@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         address: DataTypes.STRING,
     });
 
-    wallet.associate = function(models) {
+    wallet.associate = function (models) {
         wallet.belongsTo(models.user);
     };
 
