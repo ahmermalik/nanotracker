@@ -5,6 +5,7 @@ var pgp = require('pg-promise')({});
 var db = pgp({database: 'nano_wallet'});
 
 
+
 /** sets the template engine to handle bars**/
 app.set('view engine', 'hbs');
 
