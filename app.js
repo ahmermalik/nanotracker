@@ -3,7 +3,7 @@ var app = express();
 var body_parser = require('body-parser');
 var pgp = require('pg-promise')({});
 var db = pgp({database: 'nano_wallet'});
-
+const axios = require('axios');
 
 
 /** sets the template engine to handle bars**/

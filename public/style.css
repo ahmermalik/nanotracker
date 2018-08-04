@@ -2506,6 +2506,10 @@ code {
     padding-left: 16rem
 }
 
+.pl8 {
+    padding-left: 20rem
+}
+
 .pr0 {
     padding-right: 0
 }
@@ -2536,6 +2540,10 @@ code {
 
 .pr7 {
     padding-right: 16rem
+}
+
+.pr8 {
+    padding-right: 20rem
 }
 
 .pb0 {
