@@ -27,7 +27,8 @@ app.post("/add", function (request, response, next) {
     var columns = {
         wallet_address: wallet_address
     }
-    let query = 'INSERT INTO wallet VALUES (default, ${wallet_address}';
+    let query = `INSERT INTO wallets() VALUES ('${wallet_address}')`;
+    console.log(query);
 
     db.any(query, columns)
         .then(function (results) {
@@ -84,7 +85,7 @@ app.get("/todos", function (request, response, next) {
 
 app.post('/todos/add', function (request, response, next) {
     // insert query
-    var description = request.body.task //grabs the  form named 'task' from todos.hbs
+    var description = request.body.task //grabs the form named 'task' from todos.hbs
     let update = "INSERT INTO task VALUES(default, $1, false)";  //inserts value into task table in the todo_database
     db.none(update, description)
         .then(function(){
@@ -110,3 +111,9 @@ app.listen(8000, function () {
     console.log('Listening on port 8000');
 });
 
+
+
+
+// sequelize model:generate --name user --attributes f_name:string,l_name:string,email:string
+//
+// sequelize model:generate --name wallet --attributes wallet_address:string
