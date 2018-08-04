@@ -17,31 +17,52 @@ app.use(body_parser.urlencoded({extended: false}));
 
 
 
-app.get("/", function (request, response) {
+app.get("/", function (request, response, next) {
+    let query = ""
     response.render('home.hbs');
 });
 
-app.get("/trending", function (request, response) {
+app.post("/add", function (request, response, next) {
+    var wallet_address =  request.body.public_address;
+    var columns = {
+        wallet_address: wallet_address
+    }
+    let query = 'INSERT INTO wallet VALUES (default, ${wallet_address}';
+
+    db.any(query, columns)
+        .then(function (results) {
+            response.render('home.hbs', {});
+            //console.log(q)
+        })
+        .catch(next);
+});
+
+app.get("/trending", function (request, response, next) {
     let query = ""
     response.render('trending.hbs');
 });
 
-app.get("/contact", function (request, response) {
+app.get("/trending", function (request, response, next) {
+    let query = ""
+    response.render('trending.hbs');
+});
+
+app.get("/contact", function (request, response, next) {
     let query = ""
     response.render('contact.hbs');
 });
 
-app.get("/disclaimer", function (request, response) {
+app.get("/disclaimer", function (request, response, next) {
     let query = ""
     response.render('disclaimer.hbs');
 });
 
-app.get("/socialmedia", function (request, response) {
+app.get("/socialmedia", function (request, response, next) {
     let query = ""
     response.render('socialmedia.hbs');
 });
 
-app.get("/email", function (request, response) {
+app.get("/email", function (request, response, next) {
     let query = ""
     response.render('email.hbs');
 });
@@ -85,33 +106,7 @@ app.post('/todos/delete/:id', function (request, response, next) {
 
 });
 
-app.post('/todos/done/:id', function (request, response, next) {
-    //declare id aka slug from the database and put it at the end of the url on the todo page.
-    var id = request.params.id;5
-    // where the user selects the todo from the list, select the same todo where the id is the same in the database
-    let query = "SELECT * FROM task WHERE id = $1";
-    db.one(query, id)
-        .then(function(task) {
-            /*
-                if (task.done){         //task.done means true. if you wanted to say false, !task.done
-                    var update = "UPDATE task SET done = FALSE WHERE id = $1" ;  //$ makes only allows texts to be inserted. it is a method to protect your database from malicious attacks.
-                }
-                else {
-                    var update = "UPDATE task SET done = TRUE WHERE id = $1" ;
-                };*/
-
-            return  db.none('UPDATE task SET done = $1 WHERE id = $2', [!task.done, id]);
-        })
-        .then(function() {
-            response.redirect('/todos');
-        })
-        .catch(next);
-
-});
-
 app.listen(8000, function () {
     console.log('Listening on port 8000');
 });
-
-
 
