@@ -27,13 +27,12 @@ app.post("/add", function (request, response, next) {
     var columns = {
         wallet_address: wallet_address
     }
-    let query = `INSERT INTO wallets() VALUES ('${wallet_address}')`;
-    console.log(query);
+    let query = `INSERT INTO wallets(wallet_address) VALUES ('${wallet_address}')`;
+
 
     db.any(query, columns)
         .then(function (results) {
             response.render('home.hbs', {});
-            //console.log(q)
         })
         .catch(next);
 });
