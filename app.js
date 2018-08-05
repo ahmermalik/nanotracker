@@ -1,9 +1,11 @@
-var express = require('express');
-var app = express();
-var body_parser = require('body-parser');
-var pgp = require('pg-promise')({});
-var db = pgp({database: 'nano_wallet'});
+const express = require('express');
+const app = express();
+const body_parser = require('body-parser');
+const pgp = require('pg-promise')({});
+const db = pgp({database: 'nano_wallet'});
+const jwt = require('jsonwebtoken');
 const axios = require('axios');
+
 
 
 /** sets the template engine to handle bars**/
@@ -21,6 +23,13 @@ app.get("/", function (request, response, next) {
     let query = ""
     response.render('home.hbs');
 });
+
+
+app.get("/login", function (request, response, next) {
+    let query = ""
+    response.render('login.hbs');
+});
+
 
 app.post("/add", function (request, response, next) {
     var wallet_address =  request.body.public_address;
