@@ -27,7 +27,7 @@
 <div class="login-box pv4">
 
     <h1> login </h1>
-    <form class="email-login">
+    <form class="email-login" role="login" action="/userlogin" method="GET">
         <div class="u-form-group">
             <input type="email" placeholder="Email"/>
         </div>
@@ -37,6 +37,7 @@
         <div class="u-form-group">
             <button>Log in</button>
         </div>
+
         <div class="u-form-group">
             <a href="#" class="forgot-password">Forgot password?</a>
         </div>
@@ -45,7 +46,7 @@
 </div>
 <div class="login-box pv4">
     <h1> register </h1>
-    <form class="email-signup">
+    <form class="email-signup" role="create_login" action="/createuser" method="POST">
         <div class="u-form-group">
             <input type="email" placeholder="Email"/>
         </div>
