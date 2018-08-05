@@ -6,7 +6,7 @@ const db = pgp({database: 'nano_wallet'});
 const jwt = require('jsonwebtoken');
 const axios = require('axios');
 
-
+const PORT = process.env.PORT || 8000;
 
 /** sets the template engine to handle bars**/
 app.set('view engine', 'hbs');
@@ -115,7 +115,7 @@ app.post('/todos/delete/:id', function (request, response, next) {
 
 });
 
-app.listen(8000, function () {
+app.listen(PORT, function () {
     console.log('Listening on port 8000');
 });
 
