@@ -26,8 +26,13 @@ app.get("/", function (request, response, next) {
 
 
 app.get("/login", function (request, response, next) {
+    //check if user exists in database via email lookup
+    //check if jwt token matches
     let query = ""
     response.render('login.hbs');
+
+
+    //
 });
 
 
